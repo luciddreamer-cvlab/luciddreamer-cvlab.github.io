@@ -257,7 +257,7 @@ function randomSite() {
 
       <div id="results-carousel1" class="carousel results-carousel">
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="fantasy_back" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/fantasy_back_rgb.mp4" type="video/mp4">
@@ -272,7 +272,7 @@ function randomSite() {
         </div>
 
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="animelake_lookaround" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/animelake_lookaround_rgb.mp4" type="video/mp4">
@@ -287,7 +287,7 @@ function randomSite() {
         </div>
 
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="animestreet_back" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/animestreet_back_rgb.mp4" type="video/mp4">
@@ -302,7 +302,7 @@ function randomSite() {
         </div>
 
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="fig5ours_back" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/fig5ours_back_rgb.mp4" type="video/mp4">
@@ -317,7 +317,7 @@ function randomSite() {
         </div>
 
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="image031_back" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/image031_back_rgb.mp4" type="video/mp4">
@@ -332,7 +332,7 @@ function randomSite() {
         </div>
 
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="waterfall_back" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/waterfall_back_rgb.mp4" type="video/mp4">
@@ -348,7 +348,7 @@ function randomSite() {
       </div>
       <div id="results-carousel2" class="carousel results-carousel">
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="fig5ours_360" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/fig5ours_360_rgb.mp4" type="video/mp4">
@@ -363,7 +363,7 @@ function randomSite() {
         </div>
 
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="whitecat3_4_back" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/whitecat3_4_back_rgb.mp4" type="video/mp4">
@@ -378,7 +378,7 @@ function randomSite() {
         </div>
 
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="Image032_back" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/Image032_back_rgb.mp4" type="video/mp4">
@@ -393,7 +393,7 @@ function randomSite() {
         </div>
 
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="waterfall_lookaround" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/waterfall_lookaround_rgb.mp4" type="video/mp4">
@@ -408,7 +408,7 @@ function randomSite() {
         </div>
 
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="aniestreet2_back" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/aniestreet2_back_rgb.mp4" type="video/mp4">
@@ -423,7 +423,7 @@ function randomSite() {
         </div>
 
         <div class="item">
-          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="1.0">
             <div class="video">
               <video poster="" id="animelake_back" autoplay controls muted loop playsinline height="100%">
                 <source src="./video/animelake_back_rgb.mp4" type="video/mp4">
@@ -453,6 +453,7 @@ function randomSite() {
         $(".twentytwenty-container").twentytwenty({
             before_label: 'RGB', // Set a custom before label
             after_label: 'Depth', // Set a custom after label
+            default_offset_pct: 0.7,
             click_to_move: false
         });
     });
