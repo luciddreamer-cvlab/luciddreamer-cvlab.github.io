@@ -1,12 +1,12 @@
-ffmpeg -i ./image031_back.mp4 -vcodec libx264 -crf 28 .././image031_back.mp4
-ffmpeg -i ./waterfall_lookaround.mp4 -vcodec libx264 -crf 28 .././waterfall_lookaround.mp4
-ffmpeg -i ./animelake_lookaround.mp4 -vcodec libx264 -crf 28 .././animelake_lookaround.mp4
-ffmpeg -i ./waterfall_back.mp4 -vcodec libx264 -crf 28 .././waterfall_back.mp4
-ffmpeg -i ./animelake_back.mp4 -vcodec libx264 -crf 28 .././animelake_back.mp4
-ffmpeg -i ./animestreet_back.mp4 -vcodec libx264 -crf 28 .././animestreet_back.mp4
-ffmpeg -i ./animestreet2_back.mp4 -vcodec libx264 -crf 28 .././animestreet2_back.mp4
-ffmpeg -i ./fantasy_back.mp4 -vcodec libx264 -crf 28 .././fantasy_back.mp4
-ffmpeg -i ./whitecat3_4_back.mp4 -vcodec libx264 -crf 28 .././whitecat3_4_back.mp4
-ffmpeg -i ./Image032_back.mp4 -vcodec libx264 -crf 28 .././Image032_back.mp4
-ffmpeg -i ./fig5ours_360.mp4 -vcodec libx264 -crf 28 .././fig5ours_360.mp4
-ffmpeg -i ./fig5ours_back.mp4 -vcodec libx264 -crf 28 .././fig5ours_back.mp4
+ffmpeg -i ./image031_back.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././image031_back_rgb.mp4
+ffmpeg -i ./waterfall_lookaround.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././waterfall_lookaround_rgb.mp4
+ffmpeg -i ./animelake_lookaround.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././animelake_lookaround_rgb.mp4
+ffmpeg -i ./waterfall_back.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././waterfall_back_rgb.mp4
+ffmpeg -i ./animelake_back.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././animelake_back_rgb.mp4
+ffmpeg -i ./animestreet_back.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././animestreet_back_rgb.mp4
+ffmpeg -i ./animestreet2_back.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././animestreet2_back_rgb.mp4
+ffmpeg -i ./fantasy_back.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././fantasy_back_rgb.mp4
+ffmpeg -i ./whitecat3_4_back.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././whitecat3_4_back_rgb.mp4
+ffmpeg -i ./Image032_back.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././Image032_back_rgb.mp4
+ffmpeg -i ./fig5ours_360.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././fig5ours_360_rgb.mp4
+ffmpeg -i ./fig5ours_back.mp4 -vcodec libx264 -crf 28 -filter:v "crop=512:512:0:0" .././fig5ours_back_rgb.mp4

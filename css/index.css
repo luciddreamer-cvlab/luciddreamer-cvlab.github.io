@@ -28,6 +28,16 @@ body {
 }
 
 
+.logo img{
+    border-radius: 50%;
+    box-shadow: 0 0 10px purple;
+}
+
+.logo img:hover{
+    border-radius: 50%;
+    box-shadow: 0 0 15px purple;
+}
+
 .publication-title {
 }
 

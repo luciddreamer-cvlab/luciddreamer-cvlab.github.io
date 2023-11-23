@@ -8,7 +8,7 @@ If you find LucidDreamer useful for your work please cite:
 @article{chung2023luciddreamer,
   title={LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes},
   author={Chung, Jaeyoung and Lee, Suyoung and Nam, Hyeongjin and Lee, Jaerin and Lee, Kyoung Mu},
-  journal={arXiv preprint arXiv:2309.16653},
+  journal={arXiv preprint arXiv:2311.13384},
   year={2023}
 }
 ```
